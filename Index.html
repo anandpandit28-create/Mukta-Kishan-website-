@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>मुक्ताकेशन मल्टिपल मार्ट</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #222;
+}
+
+header {
+    background: linear-gradient(135deg, #075e36, #12a05a);
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+nav {
+    background: #064b2d;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 55px 20px;
+    background: #e1f5e9;
+}
+
+.hero h2 {
+    color: #075e36;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    color: #075e36;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.shop-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.shop-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.shop-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.shop-card h3 {
+    color: #087b42;
+    margin: 15px 0 8px;
+}
+
+.shop-card p {
+    padding: 0 10px;
+    line-height: 1.6;
+}
+
+.contact {
+    background: #e1f5e9;
+    text-align: center;
+    border-radius: 12px;
+    line-height: 2;
+}
+
+.contact a {
+    color: #075e36;
+    font-weight: bold;
+}
+
+footer {
+    background: #064b2d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media(max-width:600px) {
+    header h1 {
+        font-size: 23px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+        font-size: 14px;
+    }
+
+    .hero h2 {
+        font-size: 23px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>मुक्ताकेशन मल्टिपल मार्ट</h1>
+    <p>आपल्या सेवेत, आपल्या विश्वासासह!</p>
+</header>
+
+<nav>
+    <a href="#home">मुख्यपृष्ठ</a>
+    <a href="#about">आमच्याबद्दल</a>
+    <a href="#shops">आमची दुकाने</a>
+    <a href="#contact">संपर्क</a>
+</nav>
+
+<div class="hero" id="home">
+    <h2>मुक्ताकेशन मल्टिपल मार्टमध्ये आपले स्वागत आहे!</h2>
+    <p>
+        एकाच ठिकाणी विविध प्रकारच्या दुकानांची सुविधा.
+        आपल्या खरेदीसाठी उत्तम ठिकाण!
+    </p>
+</div>
+
+<section id="about">
+    <h2 class="section-title">आमच्याबद्दल</h2>
+    <p style="text-align:center; line-height:1.8;">
+        मुक्ताकेशन मल्टिपल मार्ट हे सात गाळ्यांचे
+        एक आधुनिक शॉपिंग सेंटर आहे.
+        ग्राहकांना विविध प्रकारच्या वस्तू आणि सेवा
+        एकाच ठिकाणी उपलब्ध करून देणे हे आमचे ध्येय आहे.
+    </p>
+</section>
+
+<section id="shops">
+    <h2 class="section-title">आमची सात दुकाने</h2>
+
+    <div class="shop-container">
+
+        <div class="shop-card">
+            <img src="https://placehold.co/500x300?text=Shop+1" alt="दुकान १">
+            <h3>दुकान क्रमांक १</h3>
+            <p>दुकानाची माहिती येथे लिहा.</p>
+        </div>
+
+        <div class="shop-card">
+            <img src="https://placehold.co/500x300?text=Shop+2" alt="दुकान २">
+            <h3>दुकान क्रमांक २</h3>
+            <p>दुकानाची माहिती येथे लिहा.</p>
+        </div>
+
+        <div class="shop-card">
+            <img src="https://placehold.co/500x300?text=Shop+3" alt="दुकान ३">
+            <h3>दुकान क्रमांक ३</h3>
+            <p>दुकानाची माहिती येथे लिहा.</p>
+        </div>
+
+        <div class="shop-card">
+            <img src="https://placehold.co/500x300?text=Shop+4" alt="दुकान ४">
+            <h3>दुकान क्रमांक ४</h3>
+            <p>दुकानाची माहिती येथे लिहा.</p>
+        </div>
+
+        <div class="shop-card">
+            <img src="https://placehold.co/500x300?text=Shop+5" alt="दुकान ५">
+            <h3>दुकान क्रमांक ५</h3>
+            <p>दुकानाची माहिती येथे लिहा.</p>
+        </div>
+
+        <div class="shop-card">
+            <img src="https://placehold.co/500x300?text=Shop+6" alt="दुकान ६">
+            <h3>दुकान क्रमांक ६</h3>
+            <p>दुकानाची माहिती येथे लिहा.</p>
+        </div>
+
+        <div class="shop-card">
+            <img src="https://placehold.co/500x300?text=Shop+7" alt="दुकान ७">
+            <h3>दुकान क्रमांक ७</h3>
+            <p>दुकानाची माहिती येथे लिहा.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact">
+        <h2 class="section-title">संपर्क साधा</h2>
+        <p>मुक्ताकेशन मल्टिपल मार्ट</p>
+        <p>पिंगळी रोड, नवीन शेंद्रा, परभणी</p>
+        <p>मोबाईल: तुमचा संपर्क क्रमांक येथे लिहा</p>
+        <p>वेळ: सकाळी ९ ते रात्री ९</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 मुक्ताकेशन मल्टिपल मार्ट. सर्व हक्क राखीव.</p>
+</footer>
+
+</body>
+</html>
